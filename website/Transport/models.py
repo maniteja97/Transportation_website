@@ -6,6 +6,6 @@ from django.db import models
 
 class Booking(models.Model):
 	startpoint = models.CharField(max_length=250)
-	destination = models.CharField(max_length=250)
+	destination = models.CharField(max_length=200)
 	date=models.DateTimeField('date of booking')
 		
